@@ -7,12 +7,17 @@ void setup() {
     noStroke();
     // noLoop();
 
-    drawPalette();
-    drawSamplePoints();
+    drawAll();
 }
 
 void draw() {
 
+}
+
+void drawAll() {
+    drawPalette();
+    drawSamplePoints();
+    drawHelp();
 }
 
 void drawPalette() {
@@ -54,8 +59,12 @@ void drawSamplePoints() {
     popMatrix();
 }
 
+void drawHelp() {
+    fill(255);
+    text("click: next palette", width - 120 ,20);
+}
+
 void mouseClicked() {
     palettes.next();
-    drawPalette();
-    drawSamplePoints();
+    drawAll();
 }
