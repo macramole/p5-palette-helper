@@ -4,8 +4,8 @@ PaletteHelper loads color palettes from a JSON file and provide useful methods t
 
 ## Features
 
-* Loads palettes from a JSON file
-* Traverse through your palettes just calling next()
+* Load palettes from a JSON file
+* Traverse through your palettes just by calling next()
 * Supports weights in colors so getColor() will return a weighted random color
 
 ## Try
