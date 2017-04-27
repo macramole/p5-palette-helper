@@ -2,21 +2,21 @@
 
 PaletteHelper loads color palettes from a JSON file and provide useful methods to use them in Processing.
 
-## features
+## Features
 
-. Loads palettes from a JSON file
-. Traverse through your palettes just calling next()
-. Supports weights in colors so getColor() will return a weighted random color
+* Loads palettes from a JSON file
+* Traverse through your palettes just calling next()
+* Supports weights in colors so getColor() will return a weighted random color
 
-## try
+## Try
 
 Download or clone this repo and open p5PaletteHelper.pde
 
-## use
+## Use
 
 Copy Palette.pde and PaletteHelper.pde to your beloved project and have fun
 
-## json format
+## JSON format
 
 Check data/palettes.json and data/palettes2.json for the supported formats. 
 The first format is more expressive and the second one is smaller.
